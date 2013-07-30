@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		349203355DF14508917DF48E /* Pods-DRAutolayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9204CB73B8544889D948F48 /* Pods-DRAutolayout-dummy.m */; };
+		59F5BB701B9A4276BAB05F52 /* NSLayoutConstraint+DRAutolayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B72C80ED8E654E6C8840620E /* NSLayoutConstraint+DRAutolayout.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		5B5481A733A0403AB18B781C /* libPods-DRAutolayout.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CF094BFD14A4E49BF7EEB26 /* libPods-DRAutolayout.a */; };
+		5EDB12BD3E10460D9AC28FE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 136BB03FD97048549D24B677 /* Foundation.framework */; };
+		621B182870B541B19A6173E9 /* UIView+DRAutolayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C003179A3F4CA8AED4D857 /* UIView+DRAutolayout.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		670C59F26E2644FCB074C2F6 /* UIView+DRAutolayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E1DA30E24F04060A34F669D /* UIView+DRAutolayout.h */; };
+		7F25B62AC415457CBC9B1B39 /* NSLayoutConstraint+DRAutolayout.h in Headers */ = {isa = PBXBuildFile; fileRef = F379E3BC0343490FA35BDA58 /* NSLayoutConstraint+DRAutolayout.h */; };
+		81D601BB9F224EC79A09D254 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F4034053FC4215A3BF8844 /* Pods-dummy.m */; };
+		EBC2ABAC3EF74812A10E8A08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 136BB03FD97048549D24B677 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFA4CDB6925645E48D2125AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCE0C060E4564E969B4E7C55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 276E3725594F48D1A04B6588;
+			remoteInfo = "Pods-DRAutolayout";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0358E2F7E7F04ED4B1FC18A4 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = SOURCE_ROOT; };
+		136BB03FD97048549D24B677 /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		57B5EC8853674F32A55082DE /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		65C003179A3F4CA8AED4D857 /* UIView+DRAutolayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+DRAutolayout.m"; path = "DRAutolayout/DRAutolayout/UIView+DRAutolayout.m"; sourceTree = SOURCE_ROOT; };
+		6E1DA30E24F04060A34F669D /* UIView+DRAutolayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+DRAutolayout.h"; path = "DRAutolayout/DRAutolayout/UIView+DRAutolayout.h"; sourceTree = SOURCE_ROOT; };
+		8AF567EA0AA4444DA0EC716A /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = SOURCE_ROOT; };
+		91AD5DEA86304CB08AEA8289 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = SOURCE_ROOT; };
+		9984337D7AA24714BDC55C15 /* Pods-DRAutolayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DRAutolayout-prefix.pch"; sourceTree = SOURCE_ROOT; };
+		9CF094BFD14A4E49BF7EEB26 /* libPods-DRAutolayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DRAutolayout.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD0EE20C3F0B4B9A961A846C /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		B029B957D07E4E5680010B5D /* Pods-DRAutolayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DRAutolayout.xcconfig"; sourceTree = SOURCE_ROOT; };
+		B72C80ED8E654E6C8840620E /* NSLayoutConstraint+DRAutolayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+DRAutolayout.m"; path = "DRAutolayout/DRAutolayout/NSLayoutConstraint+DRAutolayout.m"; sourceTree = SOURCE_ROOT; };
+		CE81FF29A7C24E6580421B28 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D15803624DA444B5AE314A4B /* Pods-DRAutolayout-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DRAutolayout-Private.xcconfig"; sourceTree = SOURCE_ROOT; };
+		D4F4034053FC4215A3BF8844 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = SOURCE_ROOT; };
+		E9204CB73B8544889D948F48 /* Pods-DRAutolayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DRAutolayout-dummy.m"; sourceTree = SOURCE_ROOT; };
+		EEF5BF041065409CB68EC9B9 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = SOURCE_ROOT; };
+		F379E3BC0343490FA35BDA58 /* NSLayoutConstraint+DRAutolayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+DRAutolayout.h"; path = "DRAutolayout/DRAutolayout/NSLayoutConstraint+DRAutolayout.h"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		327EEEB5C8C24700AB75FF3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EDB12BD3E10460D9AC28FE4 /* Foundation.framework in Frameworks */,
+				5B5481A733A0403AB18B781C /* libPods-DRAutolayout.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78BAF2284A6B4E50AAC590AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBC2ABAC3EF74812A10E8A08 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06BED5373B4A4582B4DA4B04 /* DRAutolayout */ = {
+			isa = PBXGroup;
+			children = (
+				F379E3BC0343490FA35BDA58 /* NSLayoutConstraint+DRAutolayout.h */,
+				B72C80ED8E654E6C8840620E /* NSLayoutConstraint+DRAutolayout.m */,
+				6E1DA30E24F04060A34F669D /* UIView+DRAutolayout.h */,
+				65C003179A3F4CA8AED4D857 /* UIView+DRAutolayout.m */,
+			);
+			name = DRAutolayout;
+			sourceTree = "<group>";
+		};
+		1525507310EE46CFB28F7DB6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD0EE20C3F0B4B9A961A846C /* Pods.xcconfig */,
+				91AD5DEA86304CB08AEA8289 /* Pods-environment.h */,
+				EEF5BF041065409CB68EC9B9 /* Pods-resources.sh */,
+				8AF567EA0AA4444DA0EC716A /* Pods-acknowledgements.plist */,
+				0358E2F7E7F04ED4B1FC18A4 /* Pods-acknowledgements.markdown */,
+				D4F4034053FC4215A3BF8844 /* Pods-dummy.m */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1E7A8A8C45434DE682929F1C = {
+			isa = PBXGroup;
+			children = (
+				91305DAAF3214DD38BF2AD4A /* Frameworks */,
+				D78C84AB80A14337B1D36A32 /* Pods */,
+				D8C3B8D35B7D4385950907D2 /* Products */,
+				8C7DB989E365488B8035F3D9 /* Targets Support Files */,
+				57B5EC8853674F32A55082DE /* Podfile */,
+			);
+			sourceTree = "<group>";
+		};
+		5C3CEB04623F48EF900D3213 /* Pods-DRAutolayout */ = {
+			isa = PBXGroup;
+			children = (
+				B029B957D07E4E5680010B5D /* Pods-DRAutolayout.xcconfig */,
+				D15803624DA444B5AE314A4B /* Pods-DRAutolayout-Private.xcconfig */,
+				9984337D7AA24714BDC55C15 /* Pods-DRAutolayout-prefix.pch */,
+				E9204CB73B8544889D948F48 /* Pods-DRAutolayout-dummy.m */,
+			);
+			name = "Pods-DRAutolayout";
+			sourceTree = "<group>";
+		};
+		8C7DB989E365488B8035F3D9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C3CEB04623F48EF900D3213 /* Pods-DRAutolayout */,
+				1525507310EE46CFB28F7DB6 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		91305DAAF3214DD38BF2AD4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				136BB03FD97048549D24B677 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D78C84AB80A14337B1D36A32 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06BED5373B4A4582B4DA4B04 /* DRAutolayout */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D8C3B8D35B7D4385950907D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CF094BFD14A4E49BF7EEB26 /* libPods-DRAutolayout.a */,
+				CE81FF29A7C24E6580421B28 /* libPods.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		09D3E87987B440229E71EBF7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F25B62AC415457CBC9B1B39 /* NSLayoutConstraint+DRAutolayout.h in Headers */,
+				670C59F26E2644FCB074C2F6 /* UIView+DRAutolayout.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		276E3725594F48D1A04B6588 /* Pods-DRAutolayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40C666DDF6D84491804932A4 /* Build configuration list for PBXNativeTarget "Pods-DRAutolayout" */;
+			buildPhases = (
+				3035FF9D18B34D04A318CAB7 /* Sources */,
+				78BAF2284A6B4E50AAC590AC /* Frameworks */,
+				09D3E87987B440229E71EBF7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DRAutolayout";
+			productName = "Pods-DRAutolayout";
+			productReference = 9CF094BFD14A4E49BF7EEB26 /* libPods-DRAutolayout.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FBEF887D06C24E9DAA758BF8 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57F479700295448898E880A9 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				DDD5C7E9ED374E8AB853904F /* Sources */,
+				327EEEB5C8C24700AB75FF3C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFE5D46070BA4F4EAA1DBD8A /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = CE81FF29A7C24E6580421B28 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCE0C060E4564E969B4E7C55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+			};
+			buildConfigurationList = 8DB2B400F528433E9FD05DCA /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1E7A8A8C45434DE682929F1C;
+			productRefGroup = D8C3B8D35B7D4385950907D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				276E3725594F48D1A04B6588 /* Pods-DRAutolayout */,
+				FBEF887D06C24E9DAA758BF8 /* Pods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3035FF9D18B34D04A318CAB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59F5BB701B9A4276BAB05F52 /* NSLayoutConstraint+DRAutolayout.m in Sources */,
+				621B182870B541B19A6173E9 /* UIView+DRAutolayout.m in Sources */,
+				349203355DF14508917DF48E /* Pods-DRAutolayout-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDD5C7E9ED374E8AB853904F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81D601BB9F224EC79A09D254 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFE5D46070BA4F4EAA1DBD8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 276E3725594F48D1A04B6588 /* Pods-DRAutolayout */;
+			targetProxy = DFA4CDB6925645E48D2125AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		176456DEBC9C45EF96D15941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD0EE20C3F0B4B9A961A846C /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		272EB85C91D041BCA7CC79E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		40D45A3535EF4BE89E6F877D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Release;
+		};
+		A013F8DF1FF74E549E948A6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD0EE20C3F0B4B9A961A846C /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0C33C9ED2AD4D9A9DFE03A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D15803624DA444B5AE314A4B /* Pods-DRAutolayout-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-DRAutolayout-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA80B2EC21004129B110CAC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D15803624DA444B5AE314A4B /* Pods-DRAutolayout-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-DRAutolayout-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40C666DDF6D84491804932A4 /* Build configuration list for PBXNativeTarget "Pods-DRAutolayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0C33C9ED2AD4D9A9DFE03A5 /* Release */,
+				DA80B2EC21004129B110CAC7 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57F479700295448898E880A9 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A013F8DF1FF74E549E948A6C /* Release */,
+				176456DEBC9C45EF96D15941 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DB2B400F528433E9FD05DCA /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40D45A3535EF4BE89E6F877D /* Release */,
+				272EB85C91D041BCA7CC79E7 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCE0C060E4564E969B4E7C55 /* Project object */;
+}

@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21918F2C17A805A600ADBF19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21918F2B17A805A600ADBF19 /* Foundation.framework */; };
+		21918F2E17A805A600ADBF19 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21918F2D17A805A600ADBF19 /* CoreGraphics.framework */; };
+		21918F3017A805A600ADBF19 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21918F2F17A805A600ADBF19 /* UIKit.framework */; };
+		21918F3617A805A600ADBF19 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 21918F3417A805A600ADBF19 /* InfoPlist.strings */; };
+		21918F3817A805A600ADBF19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21918F3717A805A600ADBF19 /* main.m */; };
+		21918F3C17A805A600ADBF19 /* DRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21918F3B17A805A600ADBF19 /* DRAppDelegate.m */; };
+		21918F3F17A805A600ADBF19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21918F3D17A805A600ADBF19 /* Main.storyboard */; };
+		21918F4217A805A600ADBF19 /* DRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21918F4117A805A600ADBF19 /* DRViewController.m */; };
+		21918F4417A805A600ADBF19 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21918F4317A805A600ADBF19 /* Images.xcassets */; };
+		21918F4B17A805A600ADBF19 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21918F4A17A805A600ADBF19 /* XCTest.framework */; };
+		21918F4C17A805A600ADBF19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21918F2B17A805A600ADBF19 /* Foundation.framework */; };
+		21918F4D17A805A600ADBF19 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21918F2F17A805A600ADBF19 /* UIKit.framework */; };
+		21918F5517A805A600ADBF19 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 21918F5317A805A600ADBF19 /* InfoPlist.strings */; };
+		21918F5717A805A600ADBF19 /* CBBackgroundSpikeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21918F5617A805A600ADBF19 /* CBBackgroundSpikeTests.m */; };
+		21918F6117A8099A00ADBF19 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21918F6017A8099A00ADBF19 /* CoreBluetooth.framework */; };
+		FD46B0423B1D4E82A07EF999 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC1C293EF2C042248E80346C /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21918F4E17A805A600ADBF19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21918F2017A805A600ADBF19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21918F2717A805A600ADBF19;
+			remoteInfo = CBBackgroundSpike;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21918F2817A805A600ADBF19 /* CBBackgroundSpike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CBBackgroundSpike.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21918F2B17A805A600ADBF19 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		21918F2D17A805A600ADBF19 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		21918F2F17A805A600ADBF19 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		21918F3317A805A600ADBF19 /* CBBackgroundSpike-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CBBackgroundSpike-Info.plist"; sourceTree = "<group>"; };
+		21918F3517A805A600ADBF19 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		21918F3717A805A600ADBF19 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		21918F3917A805A600ADBF19 /* CBBackgroundSpike-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CBBackgroundSpike-Prefix.pch"; sourceTree = "<group>"; };
+		21918F3A17A805A600ADBF19 /* DRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRAppDelegate.h; sourceTree = "<group>"; };
+		21918F3B17A805A600ADBF19 /* DRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRAppDelegate.m; sourceTree = "<group>"; };
+		21918F3E17A805A600ADBF19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21918F4017A805A600ADBF19 /* DRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRViewController.h; sourceTree = "<group>"; };
+		21918F4117A805A600ADBF19 /* DRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRViewController.m; sourceTree = "<group>"; };
+		21918F4317A805A600ADBF19 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		21918F4917A805A600ADBF19 /* CBBackgroundSpikeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CBBackgroundSpikeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21918F4A17A805A600ADBF19 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		21918F5217A805A600ADBF19 /* CBBackgroundSpikeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CBBackgroundSpikeTests-Info.plist"; sourceTree = "<group>"; };
+		21918F5417A805A600ADBF19 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		21918F5617A805A600ADBF19 /* CBBackgroundSpikeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBBackgroundSpikeTests.m; sourceTree = "<group>"; };
+		21918F6017A8099A00ADBF19 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		6D29D8EC3DCB405BB3A32159 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		AC1C293EF2C042248E80346C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21918F2517A805A600ADBF19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21918F6117A8099A00ADBF19 /* CoreBluetooth.framework in Frameworks */,
+				21918F2E17A805A600ADBF19 /* CoreGraphics.framework in Frameworks */,
+				21918F3017A805A600ADBF19 /* UIKit.framework in Frameworks */,
+				21918F2C17A805A600ADBF19 /* Foundation.framework in Frameworks */,
+				FD46B0423B1D4E82A07EF999 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21918F4617A805A600ADBF19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21918F4B17A805A600ADBF19 /* XCTest.framework in Frameworks */,
+				21918F4D17A805A600ADBF19 /* UIKit.framework in Frameworks */,
+				21918F4C17A805A600ADBF19 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21918F1F17A805A600ADBF19 = {
+			isa = PBXGroup;
+			children = (
+				21918F3117A805A600ADBF19 /* CBBackgroundSpike */,
+				21918F5017A805A600ADBF19 /* CBBackgroundSpikeTests */,
+				21918F2A17A805A600ADBF19 /* Frameworks */,
+				21918F2917A805A600ADBF19 /* Products */,
+				6D29D8EC3DCB405BB3A32159 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		21918F2917A805A600ADBF19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21918F2817A805A600ADBF19 /* CBBackgroundSpike.app */,
+				21918F4917A805A600ADBF19 /* CBBackgroundSpikeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21918F2A17A805A600ADBF19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21918F6017A8099A00ADBF19 /* CoreBluetooth.framework */,
+				21918F2B17A805A600ADBF19 /* Foundation.framework */,
+				21918F2D17A805A600ADBF19 /* CoreGraphics.framework */,
+				21918F2F17A805A600ADBF19 /* UIKit.framework */,
+				21918F4A17A805A600ADBF19 /* XCTest.framework */,
+				AC1C293EF2C042248E80346C /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		21918F3117A805A600ADBF19 /* CBBackgroundSpike */ = {
+			isa = PBXGroup;
+			children = (
+				21918F3A17A805A600ADBF19 /* DRAppDelegate.h */,
+				21918F3B17A805A600ADBF19 /* DRAppDelegate.m */,
+				21918F3D17A805A600ADBF19 /* Main.storyboard */,
+				21918F4017A805A600ADBF19 /* DRViewController.h */,
+				21918F4117A805A600ADBF19 /* DRViewController.m */,
+				21918F4317A805A600ADBF19 /* Images.xcassets */,
+				21918F3217A805A600ADBF19 /* Supporting Files */,
+			);
+			path = CBBackgroundSpike;
+			sourceTree = "<group>";
+		};
+		21918F3217A805A600ADBF19 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21918F3317A805A600ADBF19 /* CBBackgroundSpike-Info.plist */,
+				21918F3417A805A600ADBF19 /* InfoPlist.strings */,
+				21918F3717A805A600ADBF19 /* main.m */,
+				21918F3917A805A600ADBF19 /* CBBackgroundSpike-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		21918F5017A805A600ADBF19 /* CBBackgroundSpikeTests */ = {
+			isa = PBXGroup;
+			children = (
+				21918F5617A805A600ADBF19 /* CBBackgroundSpikeTests.m */,
+				21918F5117A805A600ADBF19 /* Supporting Files */,
+			);
+			path = CBBackgroundSpikeTests;
+			sourceTree = "<group>";
+		};
+		21918F5117A805A600ADBF19 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21918F5217A805A600ADBF19 /* CBBackgroundSpikeTests-Info.plist */,
+				21918F5317A805A600ADBF19 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21918F2717A805A600ADBF19 /* CBBackgroundSpike */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21918F5A17A805A600ADBF19 /* Build configuration list for PBXNativeTarget "CBBackgroundSpike" */;
+			buildPhases = (
+				3C33F2929F4E4430ACE6A428 /* Check Pods Manifest.lock */,
+				21918F2417A805A600ADBF19 /* Sources */,
+				21918F2517A805A600ADBF19 /* Frameworks */,
+				21918F2617A805A600ADBF19 /* Resources */,
+				9B76EFE179B949A282D077B2 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CBBackgroundSpike;
+			productName = CBBackgroundSpike;
+			productReference = 21918F2817A805A600ADBF19 /* CBBackgroundSpike.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21918F4817A805A600ADBF19 /* CBBackgroundSpikeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21918F5D17A805A600ADBF19 /* Build configuration list for PBXNativeTarget "CBBackgroundSpikeTests" */;
+			buildPhases = (
+				21918F4517A805A600ADBF19 /* Sources */,
+				21918F4617A805A600ADBF19 /* Frameworks */,
+				21918F4717A805A600ADBF19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21918F4F17A805A600ADBF19 /* PBXTargetDependency */,
+			);
+			name = CBBackgroundSpikeTests;
+			productName = CBBackgroundSpikeTests;
+			productReference = 21918F4917A805A600ADBF19 /* CBBackgroundSpikeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21918F2017A805A600ADBF19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DR;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Daniel R";
+				TargetAttributes = {
+					21918F4817A805A600ADBF19 = {
+						TestTargetID = 21918F2717A805A600ADBF19;
+					};
+				};
+			};
+			buildConfigurationList = 21918F2317A805A600ADBF19 /* Build configuration list for PBXProject "CBBackgroundSpike" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21918F1F17A805A600ADBF19;
+			productRefGroup = 21918F2917A805A600ADBF19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21918F2717A805A600ADBF19 /* CBBackgroundSpike */,
+				21918F4817A805A600ADBF19 /* CBBackgroundSpikeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21918F2617A805A600ADBF19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21918F4417A805A600ADBF19 /* Images.xcassets in Resources */,
+				21918F3617A805A600ADBF19 /* InfoPlist.strings in Resources */,
+				21918F3F17A805A600ADBF19 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21918F4717A805A600ADBF19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21918F5517A805A600ADBF19 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C33F2929F4E4430ACE6A428 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9B76EFE179B949A282D077B2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21918F2417A805A600ADBF19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21918F3C17A805A600ADBF19 /* DRAppDelegate.m in Sources */,
+				21918F4217A805A600ADBF19 /* DRViewController.m in Sources */,
+				21918F3817A805A600ADBF19 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21918F4517A805A600ADBF19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21918F5717A805A600ADBF19 /* CBBackgroundSpikeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21918F4F17A805A600ADBF19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21918F2717A805A600ADBF19 /* CBBackgroundSpike */;
+			targetProxy = 21918F4E17A805A600ADBF19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		21918F3417A805A600ADBF19 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21918F3517A805A600ADBF19 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		21918F3D17A805A600ADBF19 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21918F3E17A805A600ADBF19 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21918F5317A805A600ADBF19 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21918F5417A805A600ADBF19 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21918F5817A805A600ADBF19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		21918F5917A805A600ADBF19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21918F5B17A805A600ADBF19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D29D8EC3DCB405BB3A32159 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CBBackgroundSpike/CBBackgroundSpike-Prefix.pch";
+				INFOPLIST_FILE = "CBBackgroundSpike/CBBackgroundSpike-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		21918F5C17A805A600ADBF19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D29D8EC3DCB405BB3A32159 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CBBackgroundSpike/CBBackgroundSpike-Prefix.pch";
+				INFOPLIST_FILE = "CBBackgroundSpike/CBBackgroundSpike-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		21918F5E17A805A600ADBF19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CBBackgroundSpike.app/CBBackgroundSpike";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CBBackgroundSpike/CBBackgroundSpike-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CBBackgroundSpikeTests/CBBackgroundSpikeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		21918F5F17A805A600ADBF19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CBBackgroundSpike.app/CBBackgroundSpike";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CBBackgroundSpike/CBBackgroundSpike-Prefix.pch";
+				INFOPLIST_FILE = "CBBackgroundSpikeTests/CBBackgroundSpikeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21918F2317A805A600ADBF19 /* Build configuration list for PBXProject "CBBackgroundSpike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21918F5817A805A600ADBF19 /* Debug */,
+				21918F5917A805A600ADBF19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21918F5A17A805A600ADBF19 /* Build configuration list for PBXNativeTarget "CBBackgroundSpike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21918F5B17A805A600ADBF19 /* Debug */,
+				21918F5C17A805A600ADBF19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21918F5D17A805A600ADBF19 /* Build configuration list for PBXNativeTarget "CBBackgroundSpikeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21918F5E17A805A600ADBF19 /* Debug */,
+				21918F5F17A805A600ADBF19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21918F2017A805A600ADBF19 /* Project object */;
+}

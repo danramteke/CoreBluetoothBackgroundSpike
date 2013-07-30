@@ -1,0 +1,10 @@
+PODS:
+  - DRAutolayout (1.0)
+
+DEPENDENCIES:
+  - DRAutolayout
+
+SPEC CHECKSUMS:
+  DRAutolayout: 8c8da2c7c1236f97a3b6be9b1aefdedaed379a91
+
+COCOAPODS: 0.22.3
